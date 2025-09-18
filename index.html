@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Alex Kovács</title>
+  <link rel="icon" type="image/png" href="https://github.com/kalex3.png" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" />
+  <style>
+    body {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      background: white;
+      color: #333;
+      transition: background 0.3s, color 0.3s;
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 20px;
+      box-sizing: border-box;
+    }
+    img.profile-pic {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 15px;
+      border: 3px solid #0073e6;
+    }
+    h1.name {
+      margin: 0 0 25px 0;
+      font-weight: 700;
+      font-size: 2rem;
+    }
+    .social-icons {
+      display: flex;
+      gap: 1rem;
+      font-size: 2rem;
+    }
+    .social-icons a {
+      color: inherit;
+      text-decoration: none;
+      transition: color 0.3s ease;
+    }
+    .social-icons a:hover {
+      color: #0073e6;
+    }
+    @media (prefers-color-scheme: dark) {
+      body {
+        background: #121212;
+        color: #eee;
+      }
+      img.profile-pic {
+        border-color: #66aaff;
+      }
+      .social-icons a:hover {
+        color: #66aaff;
+      }
+    }
+  </style>
+</head>
+<body>
+  <img src="https://github.com/kalex3.png" alt="Profile Picture" class="profile-pic" />
+  <h1 class="name">Alex Kovács</h1>
+  <div class="social-icons">
+    <a href="https://github.com/kalex3" target="_blank" aria-label="GitHub" rel="noopener noreferrer me">
+      <i class="fa-brands fa-github"></i>
+    </a>
+    <a href="https://linkedin.com/in/kalex3" target="_blank" aria-label="LinkedIn" rel="noopener noreferrer me">
+      <i class="fa-brands fa-linkedin"></i>
+    </a>
+    <a href="https://infosec.exchange/@kalex" target="_blank" aria-label="Mastodon" rel="noopener noreferrer me">
+      <i class="fa-brands fa-mastodon"></i>
+    </a>
+    <a href="mailto:me@kalex.hu" aria-label="Email">
+      <i class="fa-solid fa-envelope"></i>
+    </a>
+    <a href="https://github.com/kalex3.gpg" target="_blank" aria-label="PGP public key" rel="noopener noreferrer">
+      <i class="fa-solid fa-key"></i>
+    </a>
+    <!--
+    <a href="https://signal.me" target="_blank" aria-label="Signal" rel="noopener noreferrer">
+      <i class="fa-brands fa-signal-messenger"></i>
+    </a>
+    -->
+  </div>
+</body>
+</html>
